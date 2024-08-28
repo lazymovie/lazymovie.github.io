@@ -1,0 +1,192 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>獻「給你」的「詩人之血」 | 阿直的電影海灘</title><noscript>开启JavaScript才能访问本站哦~</noscript><link rel="icon" href="/img/pwa/favicon.png"><!-- index.css--><link rel="stylesheet" href="/css/index.css?v=2.0.10"><!-- inject head--><link rel="canonical" href="http://example.com/2024/06/18/%E7%8D%BB%E3%80%8C%E7%B5%A6%E4%BD%A0%E3%80%8D%E7%9A%84%E3%80%8C%E8%A9%A9%E4%BA%BA%E4%B9%8B%E8%A1%80%E3%80%8D/"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"><!-- aplayer--><!-- swiper--><!-- fancybox ui--><!-- katex--><!-- Open Graph--><meta name="description" content="黃耀明《若水》這張專輯裡有一首歌叫做〈給你〉，改編自伊蒂．琵雅芙的經典歌曲「Hymne A L’Amour」，由周耀輝填詞。這首歌在黃耀明燦爛的作品中低調得如一片雪花，但卻讓人入迷般反覆循環，沉溺在這個雪白中帶一點血、裝載著詭譎綺麗與盛大孤獨的世界裡。 編曲的 Intro 和 Outro 部分都做得"><!-- pwa--><meta name="apple-mobile-web-app-capable" content="阿直的電影海灘"><meta name="theme-color" content="var(--efu-main)"><meta name="apple-mobile-web-app-status-bar-style" content="var(--efu-main)"><link rel="bookmark" href="/img/pwa/favicon.png"><link rel="apple-touch-icon" href="/img/pwa/favicon.png" sizes="180x180"><script>console.log(' %c Solitude %c ' + '2.0.10' + ' %c https://github.com/everfu/hexo-theme-solitude',
+    'background:#35495e ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff',
+    'background:#ff9a9a ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff',
+    'background:unset ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff')
+</script><script>(()=>{
+        const saveToLocal = {
+            set: function setWithExpiry(key, value, ttl) {
+                if (ttl === 0)
+                    return
+                const now = new Date()
+                const expiryDay = ttl * 86400000
+                const item = {
+                    value: value,
+                    expiry: now.getTime() + expiryDay
+                }
+                localStorage.setItem(key, JSON.stringify(item))
+            },
+            get: function getWithExpiry(key) {
+                const itemStr = localStorage.getItem(key)
+
+                if (!itemStr) {
+                    return undefined
+                }
+                const item = JSON.parse(itemStr)
+                const now = new Date()
+
+                if (now.getTime() > item.expiry) {
+                    localStorage.removeItem(key)
+                    return undefined
+                }
+                return item.value
+            }
+        };
+        window.utils = {
+            saveToLocal: saveToLocal,
+            getCSS: (url, id = false) => new Promise((resolve, reject) => {
+              const link = document.createElement('link')
+              link.rel = 'stylesheet'
+              link.href = url
+              if (id) link.id = id
+              link.onerror = reject
+              link.onload = link.onreadystatechange = function() {
+                const loadState = this.readyState
+                if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+                link.onload = link.onreadystatechange = null
+                resolve()
+              }
+              document.head.appendChild(link)
+            }),
+            getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+              const script = document.createElement('script')
+              script.src = url
+              script.async = true
+              script.onerror = reject
+              script.onload = script.onreadystatechange = function() {
+                const loadState = this.readyState
+                if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+                script.onload = script.onreadystatechange = null
+                resolve()
+              }
+
+              Object.keys(attr).forEach(key => {
+                script.setAttribute(key, attr[key])
+              })
+
+              document.head.appendChild(script)
+            }),
+            addGlobalFn: (key, fn, name = false, parent = window) => {
+                const globalFn = parent.globalFn || {}
+                const keyObj = globalFn[key] || {}
+
+                if (name && keyObj[name]) return
+
+                name = name || Object.keys(keyObj).length
+                keyObj[name] = fn
+                globalFn[key] = keyObj
+                parent.globalFn = globalFn
+            },
+            addEventListenerPjax: (ele, event, fn, option = false) => {
+              ele.addEventListener(event, fn, option)
+              utils.addGlobalFn('pjax', () => {
+                  ele.removeEventListener(event, fn, option)
+              })
+          },
+        }
+    })()</script><!-- global head--><script>const GLOBAL_CONFIG = {
+    root: '/',
+    algolia: undefined,
+    localsearch: undefined,
+    runtime: '2023-04-20 00:00:00',
+    lazyload: {
+        enable: false,
+        error: '/img/error_load.avif'
+    },
+    copyright: false,
+    highlight: {"limit":200,"expand":true,"copy":true,"syntax":"highlight.js"},
+    randomlink: false,
+    lang: {"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"day":"天前","hour":"小时前","just":"刚刚","min":"分钟前","month":"个月前"},"day":" 天","f12":"开发者模式已打开，请遵循GPL协议。","totalk":"无需删除空行，直接输入评论即可"},
+    aside: {
+        sayhello: {
+            morning: "✨ Good morning. It's a new day",
+            noon: "It's time for a midday break",
+            afternoon: "Tea time. 🍵",
+            night: "early bedtime",
+            goodnight: "Good night 😴",
+        },
+        sayhello2: [],
+        sayhello3: {
+            prefix: '好久不见，',
+            back: '欢迎再次回来，',
+        },
+    },
+    covercolor: {
+        enable: false
+    },
+    comment: false,
+    lightbox: 'null',
+    post_ai: false,
+    right_menu: false,
+    lure: false,
+    expire: false,
+};</script><!-- page-config head--><script id="config-diff">var PAGE_CONFIG = {
+    is_post: true,
+    is_page: false,
+    is_home: false,
+    page: '',
+    toc: true,
+    comment: false,
+    ai_text: false
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body id="body"><!-- universe--><!-- background img--><!-- loading--><!-- console--><!-- sidebar--><div id="sidebar" style="zoom: 1;"><div id="menu-mask" style="display: none;"></div><div id="sidebar-menus"><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a></div></div></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><span class="darkmode_switchbutton menu-child" onclick="sco.switchDarkMode()"><i class="solitude fa-solid fa-circle-half-stroke"></i><span>显示模式</span></span></div><span class="sidebar-menu-item-title">标签</span><div class="card-widget card-tags card-archives card-webinfo card-allinfo"><div class="card-tag-cloud"></div></div></div></div><!-- keyboard--><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav class="show" id="nav"><div id="nav-group"><div id="blog_name"><a id="site-name" href="/" title="返回博客主页"><span class="title">Solitude</span><i class="solitude fa-solid fa-home"></i></a></div><div id="page-name-mask"><div id="page-name"><a id="page-name-text" onclick="sco.toTop()">獻「給你」的「詩人之血」</a></div></div><div id="menus"></div><div id="nav-left"></div><div id="nav-right"><div class="nav-button" id="nav-totop" onclick="sco.toTop()"><a class="totopbtn"><i class="solitude fa-solid fa-arrow-up"></i><span id="percent">0</span></a></div><div id="toggle-menu"><a class="site-page"><i class="solitude fa-solid fa-bars"></i></a></div></div></div></nav><div class="coverdiv" id="coverdiv"><img class="nolazyload" id="post-cover" src="/img/default.avif" alt="獻「給你」的「詩人之血」"></div><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original" title="该文章为原创文章，注意版权协议">原创</a><div class="tag_share"><div class="post-meta__tag-list"></div></div></div></div><h1 class="post-title">獻「給你」的「詩人之血」</h1><div id="post-meta"><div class="meta-secondline"></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>黃耀明《若水》這張專輯裡有一首歌叫做〈給你〉，改編自伊蒂．琵雅芙的經典歌曲「Hymne A L’Amour」，由周耀輝填詞。這首歌在黃耀明燦爛的作品中低調得如一片雪花，但卻讓人入迷般反覆循環，沉溺在這個雪白中帶一點血、裝載著詭譎綺麗與盛大孤獨的世界裡。</p>
+<p>編曲的 Intro 和 Outro 部分都做得很像早期電影的配樂，令人一入耳便愛上，接著愛上它如詩的歌詞，然後是它極度美麗的旋律。查閲了一些背景資料，方知〈給你〉的靈感是來自法國詩人 Jean Cocteau 的實驗電影《詩人之血》，這是電影史上最早的一部酷兒電影，忽然之間仿似答案與答案通了電，歌曲中曖昧迴旋的密碼，在近百年前如夢境般的影像中，找到了上下文。</p>
+<p>「每首詩都是一塊紋章，需要被破譯。那些用血和眼淚交換來的刀斧、面孔、獨角獸、火炬、白塔、黑鳥、半星，與深藍色的曠野。」—— Jean Cocteau 在電影的開頭這樣寫。</p>
+<p>Jean Cocteau 是20世紀初法國的一位詩人、小説家、劇作家、設計師、視覺藝術家和電影導演，以超現實主義的藝術風格聞名，他同時是一位公開的同性戀者。在好友 Luis Buñuel 和 Salvador Dalí 跨界拍攝了《安達魯之犬》後，Jean Cocteau 也拍了他的第一部電影《詩人之血》，成為最早一批先鋒派電影，影響著後來的法國電影新浪潮。</p>
+<p>由於當時的超現實主義作品又深受精神分析學和達達主義的影響，所以像《安達魯之犬》《詩人之血》這樣的電影都涉及非常多白日夢的探索與隱喻，要解碼起來相對艱澀。同時我不認爲它存在正確的解碼，即任何解碼都可以是它的解碼，也終究不是它的解碼。Jean Cocteau 曾經這樣形容《詩人之血》：「這部電影是由一系列虛幻事件構成的現實主義紀錄片……它不存在一個梗概，我只能給出我自己的解釋，但我也可能是錯的，因為這些都是在影像之後寫下的文字。如果每個人都在這部電影中找到自己的解釋，我認為我就達到目的了。」</p>
+<p>這部影像詩像一塊紋章，每個人看到的圖案都不一樣。有人認為這是一個男人追求女人最終失敗的故事，我更願意把它看作是 Jean Cocteau 一個寓言式自傳，當中包含了他對自己的觀測與解構、自戀與自嘲、對創作的痴迷和痛苦、他心理深處的酷兒意識、以及他所感知的全球視野。下面結合歌詞與電影進行拆解。</p>
+<p>「找每段仍然在畫的線<br>找一塊仍然在退的臉」</p>
+<p>影片最開頭，詩人在房間裡畫畫，抽象的線條於紙上勾勒巨大的人臉，人臉忽然長出了一張嘴巴，詩人惶恐地用手擦掉筆跡，紙上的人臉消退了，但那張嘴巴卻轉移到了詩人手掌上，它呼喚空氣，詩人便錘破玻璃窗把手伸出去。這張嘴巴與詩人一同睡去又將他喚醒，詩人用這張嘴巴覆蓋在自己的嘴巴上，又壓向自己的身體肌膚，如同一種自慰的修辭。這張嘴不屬於他人，也不來自任何外物，它來自詩人自己的創作，詩人是如此孤獨而怪誕地愛著他的作品。但這種關係令他無所適從，為了擺脫作品的影響，他又把嘴巴轉移到一尊雕像上，雕像因此開始說話。</p>
+<p>「找每滴仍然未冷的血<br>找一撮仍然未降的雪」</p>
+<p>詩人聽從雕像的慫恿，進入到鏡中世界，艱難攀爬過佈滿房間的走廊，從每扇門的鑰匙孔窺探門內空間，每個空間都在上演一個世界的角落——墨西哥革命中被反復處死的人；吸食鴉片的中國人；被母親用鞭子訓練飛行的孩子；雌雄同體者被審視的身軀。最後他在雕像的教唆下，用槍殺死了自己，在鮮血汩汩湧出時他的身體纏繞上希臘神話式的罩袍，頭戴月桂葉冠，彷彿成為了完美的神。但詩人突然決定醒來，像擦除綫條一般擦除這個死亡，他沿著來時的路重新攀爬回去，再度穿過鏡子，回到原本空間，親手摧毀了雕像。在摧毀雕像之後，自我才可能建立，隨後詩人自己變成了雕像，又在一個冬日，被路過玩耍的孩童揉碎成為細雪，搓成雪球。</p>
+<p>「給世上搖搖欲墜的我<br>給一切明明是對的錯」</p>
+<p>《詩人之血》中晦澀的酷兒性，在〈給你〉中變得更加可讀，更加集中，尤其是這兩句。世上有多少酷兒像我這樣搖搖欲墜，又有多少明明是對的事被屈成了錯。「給世上搖搖欲墜的我」不是僅僅給這個我，亦是給所有同我一樣的人，你可能是酷兒，可能是同志，可能是維護心中真理卻倍受打擊的人，這些「搖搖欲墜的」都是「我」。這兩句詞如同整首歌的自述，不被接納的異類們，這首歌「給你」，這滴血「給你」。</p>
+<p>「因渴望成為獨角的獸<br>因相信成為萬國的咒」</p>
+<p>電影的最後，詩人再一次槍殺自己，鮮紅的血淌過他的眼窩，彷彿睫毛長出了黑珍珠，再滾落到白色的雪地上，贏得牌局的繆斯轉身走入黑暗，抱著地球儀和一座獸角豎琴，成為一尊有血肉的雕像，躺臥在永恆以及因永恆產生的無盡空洞之中。電影的結尾更像是詩人對創作之孤獨的解構，但歌曲中採擷的意象則更明顯地指向酷兒，從虛無感的電影畫面中生出了擁抱的暖意。獨角獸是酷兒社群的一個符號，成為酷兒的原因只是源於樸素的對愛的渴望，但卻因為相信這樣的愛，而成為了星球萬邦圍獵的咒與罰。明哥這兩句唱得太美，美得有點炫目了，在波光繾綣的聲音裡，我已經分不清看到的是眼淚，還是積雪，是匕首，還是心臟，是鮮血，還是玫瑰。</p>
+<p>我只聽見一雙攤開的手掌，每個酷兒的存在，都是一首佈滿紋章的詩。</p>
+</article><div class="post-copyright"><div class="post-copyright__author_group"><a class="post-copyright__author_img" href="/about/"><img class="post-copyright__author_img_front" src="/img/pwa/favicon.png"></a><div class="post-copyright__author_name">阿直的電影海灘</div><div class="post-copyright__author_desc"></div></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div id="quit-box" onclick="RemoveRewardMask()"></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本文是原创文章，采用<a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>协议，完整转载请注明来自<a href="/">阿直的電影海灘</a></span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__tag-list"></div></div></div><nav class="needEndHide pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2023/05/17/%E5%BA%86%E7%A5%9D%E7%88%B1-%E9%A6%99%E6%B8%AF-LGBTQ-Pride-Parade-%E7%BA%AA%E5%AE%9E/"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">庆祝爱 - 香港 LGBTQ Pride Parade 纪实</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><div class="author-info__top-group"><div class="author-info__sayhi" id="author-info__sayhi" onclick="sco.changeSayHelloText()">sayhello.morning</div></div></div><div class="avatar-img-group"><img class="avatar-img" alt="头像" src="./img/avatar.jfif"></div><div class="author-info__description_group"><div class="author-info__description"></div><div class="author-info__description2"></div></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/about/"><div class="author-info__name">阿直</div><div class="author-info__desc"></div></a><div class="card-info-social-icons is-center"></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="solitude fa-solid fa-bars"></i><span>文章目录</span></div><div class="toc-content" id="toc-content"></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="solitude fa-solid fa-map"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/06/18/%E7%8D%BB%E3%80%8C%E7%B5%A6%E4%BD%A0%E3%80%8D%E7%9A%84%E3%80%8C%E8%A9%A9%E4%BA%BA%E4%B9%8B%E8%A1%80%E3%80%8D/" title="獻「給你」的「詩人之血」"><img alt="獻「給你」的「詩人之血」" src="/img/default.avif"></a><div class="content"><span class="title" href="/2024/06/18/%E7%8D%BB%E3%80%8C%E7%B5%A6%E4%BD%A0%E3%80%8D%E7%9A%84%E3%80%8C%E8%A9%A9%E4%BA%BA%E4%B9%8B%E8%A1%80%E3%80%8D/" title="獻「給你」的「詩人之血」">獻「給你」的「詩人之血」</span></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/05/17/%E5%BA%86%E7%A5%9D%E7%88%B1-%E9%A6%99%E6%B8%AF-LGBTQ-Pride-Parade-%E7%BA%AA%E5%AE%9E/" title="庆祝爱 - 香港 LGBTQ Pride Parade 纪实"><img alt="庆祝爱 - 香港 LGBTQ Pride Parade 纪实" src="/img/default.avif"></a><div class="content"><span class="title" href="/2023/05/17/%E5%BA%86%E7%A5%9D%E7%88%B1-%E9%A6%99%E6%B8%AF-LGBTQ-Pride-Parade-%E7%BA%AA%E5%AE%9E/" title="庆祝爱 - 香港 LGBTQ Pride Parade 纪实">庆祝爱 - 香港 LGBTQ Pride Parade 纪实</span></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/04/20/%E3%80%8A%E8%BF%B7%E9%9B%BE%E4%B8%AD%E7%9A%84%E5%A5%B9%E3%80%8B%E5%BD%B1%E8%AF%84%EF%BC%9A%E4%B8%80%E9%83%A8%E5%A5%B3%E6%80%A7%E5%BD%B1%E5%83%8F%E5%B0%8F%E8%AF%B4/" title="《迷雾中的她》影评：一部女性影像小说"><img alt="《迷雾中的她》影评：一部女性影像小说" src="/img/default.avif"></a><div class="content"><span class="title" href="/2023/04/20/%E3%80%8A%E8%BF%B7%E9%9B%BE%E4%B8%AD%E7%9A%84%E5%A5%B9%E3%80%8B%E5%BD%B1%E8%AF%84%EF%BC%9A%E4%B8%80%E9%83%A8%E5%A5%B3%E6%80%A7%E5%BD%B1%E5%83%8F%E5%B0%8F%E8%AF%B4/" title="《迷雾中的她》影评：一部女性影像小说">《迷雾中的她》影评：一部女性影像小说</span></div></div></div></div></div></div></main><footer id="footer"><div id="footer_deal"></div><div id="st-footer"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div class="copyright">© 2023 - 2024 By&nbsp;<a class="footer-bar-link" href="/">阿直</a></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/everfu/hexo-theme-solitude" alt="Theme">Theme</a></div></div></div></footer></div><!-- right_menu--><!-- inject body--><div><script src="/js/utils.js?v=2.0.10"></script><script src="/js/main.js?v=2.0.10"></script><script src="/js/third_party/waterfall.min.js?v=2.0.10"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/pjax/0.2.8/pjax.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js"></script><div class="js-pjax"></div></div><!-- pjax--><script>const pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: ['title','#body-wrap','#site-config','meta[name="description"]','.js-pjax','meta[property^="og:"]','#config-diff'],
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+})
+
+document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+})
+
+document.addEventListener('pjax:complete', () => {
+    window.refreshFn()
+
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+        const newScript = document.createElement('script')
+        const content = item.text || item.textContent || item.innerHTML || ""
+        Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+        newScript.appendChild(document.createTextNode(content))
+        item.parentNode.replaceChild(newScript, item)
+    })
+
+    GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+})
+
+document.addEventListener('pjax:error', (e) => {
+    if (e.request.status === 404) {
+        pjax.loadUrl('/404.html')
+    }
+})</script><!-- theme--><script>initTheme = () => {
+    let isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const cachedMode = utils.saveToLocal.get('theme');
+    if (cachedMode === undefined) {
+        const nowMode =
+            isDarkMode ? 'dark' : 'light'
+        document.documentElement.setAttribute('data-theme', nowMode);
+    } else {
+        document.documentElement.setAttribute('data-theme', cachedMode);
+    }
+    typeof rm === 'object' && rm.mode(cachedMode === 'dark' && isDarkMode)
+}
+initTheme()</script><!-- google adsense--><!-- search--><!-- Tianli-Talk--><!-- music--></body></html><script>const posts=["2024/06/18/獻「給你」的「詩人之血」/","2023/05/17/庆祝爱-香港-LGBTQ-Pride-Parade-纪实/","2023/04/20/《迷雾中的她》影评：一部女性影像小说/"];function toRandomPost(){ pjax.loadUrl(GLOBAL_CONFIG.root+posts[Math.floor(Math.random()*posts.length)]); }</script>
